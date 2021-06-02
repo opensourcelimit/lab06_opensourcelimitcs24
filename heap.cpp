@@ -20,11 +20,22 @@ void Heap::pop(){
 
 // Returns the minimum element in the heap
 int Heap::top(){
-  return 0;
+  if(empty())
+  {
+    return -010101;
+  }
+  else
+  {
+    return vdata.at(0);
+  }  
 }
 
 // Returns true if the heap is empty, false otherwise
 bool Heap::empty(){
-  return true;
+  if(vdata.empty() ){ return true;
+  
+  else
+      return false;
 }
+
     
