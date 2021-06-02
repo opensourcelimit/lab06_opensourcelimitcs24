@@ -1,5 +1,7 @@
 // heap.cpp
-// Diba Mirza
+// Jorge Medina
+// Cs24
+// 6/2/2021
 
 #include "heap.h"
 #include <iostream>
